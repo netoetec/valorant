@@ -3,7 +3,7 @@
 }
 
 .card:hover {
-  border: 3px solid #ff4655;
+  border: 3px solid white;
   transform: scale(1.15);
   transition: 1s;
   z-index: 1000;

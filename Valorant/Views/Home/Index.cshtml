@@ -11,10 +11,16 @@
     }
 }
 
+<style>
+    body, .container{
+        background-color: #0F1923;
+    }
+</style>
+
 <section class="pt-5 pb-3 text-center container">
     <div class="row">
         <div class="col mx-auto">
-            <h1>Valorant</h1>
+            <h1 class="text-white">Agentes</h1>
             <div class="group">
                 <button id="btn-all" class="btn btn-md my-2 text-white bg-dark btn-filter"
                     onclick="filter('all')">
@@ -34,7 +40,7 @@
     </div>
 </section>
 
-<div class="py-5 bg-light">
+<div class="py-5">
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
             @foreach (var agente in Model)
@@ -42,7 +48,7 @@
                 <div class="col" onclick="window.location = 'Home/Details/@agente.Numero'">
                     <div class="card shadow-sm cursor-pointer @string.Join(' ', agente.Classe)">
                         <img src="@agente.Imagem" class="card-img-top" width="100%" height="400" alt="@agente.Nome" />
-                        <div class="card-body">
+                        <div class="card-body bg-dark text-white">
                             <p class="card-text mb-0">Nº @agente.Numero.ToString("000")</p>
                             <h3 class="card-title">@agente.Nome</h3>
                             <div class="btn-group">
