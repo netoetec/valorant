@@ -165,7 +165,7 @@
    {
         "Numero": 24,
         "Nome": "Clove",
-        "Descricao": "Clove, ume encrenqueire da Escócia, vai desorientar os inimigos tanto no calor do combate quanto no frio da morte. Jovem e imortal, elu mantém os inimigos confusos até do além-túmulo: momentos após a morte, elu retorna à vida.",
+        "Descricao": "Clove, uma encrenqueira da Escócia, vai desorientar os inimigos tanto no calor do combate quanto no frio da morte. Jovem e imortal, ela mantém os inimigos confusos até do além-túmulo: momentos após a morte, ela retorna à vida.",
         "Classe": ["Controlador"],
         "Imagem":"\\img\\agentes\\clove.png"
    }
