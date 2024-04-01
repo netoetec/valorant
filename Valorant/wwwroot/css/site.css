@@ -1,3 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+body
+{
+  font-family: 'VALORANT', sans-serif;
+}
+
 .card img {
   background-color: lightgray;
 }
